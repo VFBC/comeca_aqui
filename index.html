@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Victor Bigheti</title>
+	<link rel="manifest" href="manifest.json">
+	
+	  <script>
+if ('serviceWorker' in navigator ) {
+  
+  navigator.serviceWorker.register('service-worker.js', {
+    scope: './'
+  }).then(function(registration) {
+    if (typeof registration.update == 'function') {
+      registration.update();
+    }
+  }).catch(function(e) {
+    console.error('Error during service worker registration:', e);
+  });
+  
+}
+		  localStorage.setItem('nome', 'victor');
+		  localStorage.setItem('idade', '23');
+		  localStorage.setItem('altura', '1,92');
+		  
+		  	  
+		  
+  </script>
+	
+</head>
+
+<body>
+	
+</body>
+
+</html>
