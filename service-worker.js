@@ -16,7 +16,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'Victor-v3';
+var CACHE_NAME = 'Victor-v4';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
