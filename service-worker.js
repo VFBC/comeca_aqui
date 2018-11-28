@@ -1,13 +1,13 @@
 var files = [
-  "/index.html",
-  "/manifest.json",
-  "/images/icons/icon-72x72.png",
-  "/images/icons/icon-96x96.png",
-  "/images/icons/icon-128x128.png",
-  "/images/icons/icon-152x152.png",
-  "/images/icons/icon-192x192.png",
-  "/images/icons/icon-384x384.png",
-  "/images/icons/icon-512x512.png"
+  "/comeca_aqui//index.html",
+  "/comeca_aqui//manifest.json",
+  "/comeca_aqui//images/icons/icon-72x72.png",
+  "/comeca_aqui//images/icons/icon-96x96.png",
+  "/comeca_aqui//images/icons/icon-128x128.png",
+  "/comeca_aqui//images/icons/icon-152x152.png",
+  "/comeca_aqui//images/icons/icon-192x192.png",
+  "/comeca_aqui//images/icons/icon-384x384.png",
+  "/comeca_aqui//images/icons/icon-512x512.png"
 ];
 // dev only
 if (typeof files == 'undefined') {
@@ -16,7 +16,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'Victor-v4';
+var CACHE_NAME = 'Victor-v5';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
